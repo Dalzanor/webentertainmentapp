@@ -51,10 +51,14 @@ export const BookmarkIcon = () => {
   );
 };
 
-export const movieSvgPath = "/assets/icon-nav-movies.svg";
-export const tvSvgPath = "/assets/icon-nav-tv-series.svg";
-export const playSvgPath = "/assets/icon-play.svg";
-export const fullBookmarkSvgPath = "/assets/icon-bookmark-full.svg";
-export const emptyBookmarkSvgPath = "/assets/icon-bookmark-empty.svg";
-export const logoSvgPath = "/assets/logo.svg";
-export const searchSvgPath = "/assets/icon-search.svg";
+export const movieSvgPath =
+  process.env.PUBLIC_URL + "/assets/icon-nav-movies.svg";
+export const tvSvgPath =
+  process.env.PUBLIC_URL + "/assets/icon-nav-tv-series.svg";
+export const playSvgPath = process.env.PUBLIC_URL + "/assets/icon-play.svg";
+export const fullBookmarkSvgPath =
+  process.env.PUBLIC_URL + "/assets/icon-bookmark-full.svg";
+export const emptyBookmarkSvgPath =
+  process.env.PUBLIC_URL + "/assets/icon-bookmark-empty.svg";
+export const logoSvgPath = process.env.PUBLIC_URL + "/assets/logo.svg";
+export const searchSvgPath = process.env.PUBLIC_URL + "/assets/icon-search.svg";
