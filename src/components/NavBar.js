@@ -14,7 +14,11 @@ const NavBar = () => {
           </NavLink>
         );
       })}
-      <img src="/assets/image-avatar.png" alt="user icon" className="user" />
+      <img
+        src={process.env.PUBLIC_URL + "/assets/image-avatar.png"}
+        alt="user icon"
+        className="user"
+      />
     </Navigation>
   );
 };
